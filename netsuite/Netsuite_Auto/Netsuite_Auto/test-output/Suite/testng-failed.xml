@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.scripts.netSuite.approvalWorkflow.TS_NS_6710_Approval_WorkFlow_Market_Over10K">
+        <methods>
+          <include name="test"/>
+          <include name="TS_NS_6710_Approval_WorkFlow_Market_Over10K"/>
+          <include name="getTest"/>
+          <include name="ExtentReport"/>
+        </methods>
+      </class> <!-- com.scripts.netSuite.approvalWorkflow.TS_NS_6710_Approval_WorkFlow_Market_Over10K -->
+      <class name="com.scripts.netSuite.approvalWorkflow.TS_NS_6711_Approval_WorkFlow_Market_5Kto10K">
+        <methods>
+          <include name="test"/>
+          <include name="TS_NS_6711_Approval_WorkFlow_Market_5Kto10K"/>
+          <include name="ExtentReport"/>
+          <include name="getTest"/>
+        </methods>
+      </class> <!-- com.scripts.netSuite.approvalWorkflow.TS_NS_6711_Approval_WorkFlow_Market_5Kto10K -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
